@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+</head>
+
+<body>
+    <header id="headersection">
+        <h1>
+            <strong>
+                <center>
+                    <font color="orange">Vedha</font>
+                    <font color="blue">Bank</font>
+                </center>
+            </strong>
+        </h1>
+        <nav align="center">
+            <a href="Index.html">About Bank</a> &nbsp; &nbsp;
+            <a href="Loans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="#Branches">Branches</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="part3">
+            <strong>
+                <h1>Branches</h1>
+            </strong>
+            <ul>
+                <li>
+                    <h3>SR nagar</h3>
+                </li>
+                <img src="C:\Users\HP\OneDrive\Desktop\images\photo2.jpeg" height="100px" width="200px"><a href="https://www.icici.bank.in/branch/telangana/hyderabad/icic0000075">click here for review</a>
+                <li>
+                    <h3>Ameerpet</h3>
+                </li>
+                <img src="C:\Users\HP\OneDrive\Desktop\images\photo1.jpg" height="100px" width="200px"><a href="https://www.icici.bank.in/branch/telangana/hyderabad/icic0000075">click here for review</a>
+            </ul>
+        </section>
+    </main>
+    <br><br><br>
+    <hr>
+    <footer>
+        <h3>
+            <center>
+                <font color="green">copyright@vedha</font>
+            </center>
+        </h3>
+    </footer>
+</body>
+</html>
