@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loans</title>
+</head>
+<body>
+    <header id="headersection">
+        <h1>
+            <strong>
+                <center>
+                    <font color="orange">Vedha</font>
+                    <font color="blue">Bank</font>
+                </center>
+            </strong>
+        </h1>
+        <nav align="center">
+            <a href="Index.html">About Bank</a> &nbsp; &nbsp;
+            <a href="#Loans">Bank Loans</a>  &nbsp; &nbsp;
+            <a href="branches.html">Branches</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="part2">
+            <strong>
+                <h1>
+                    <b>Bank Loans</b>
+                </h1>
+            </strong>
+            <dd>
+                <ol>
+                    <li> Personal Loan</li>
+                    <li>Home Loan</li>
+                    <li>Education Loan</li>
+                    <li>Car Loan</li>
+                </ol>
+            </dd>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <h3>
+            <center>
+                <font color="green">copyright@vedha</font>
+            </center>
+        </h3>
+    </footer>
+</body>
+</html>
