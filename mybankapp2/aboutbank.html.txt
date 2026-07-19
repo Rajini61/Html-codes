@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="headersection">
+        <h1>
+            <strong>
+                <center>
+                    <font color="orange">Vedha</font>
+                    <font color="blue">Bank</font>
+                </center>
+            </strong>
+        </h1>
+        <nav align="center">
+            <a href="#aboutbank">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <strong>
+            <h3 id="part1"></h3>
+            <h3>About Bank</h3>
+        </strong>
+        <dd>
+            vedhabank was formed in 1955 at the initiative of the World Bank, the Government of India and
+            representatives of Indian industry. The principal objective was to create a development financial
+            institution for providing medium-term and long-term project financing to Indian businesses. Until the
+            late 1980s, vedhabank primarily focused its activities on project finance, providing long-term funds to a
+            variety of industrial projects. With the liberalization of the financial sector in India in the 1990s,
+            Vedha transformed its business from a development financial institution offering only project finance to
+            a diversified financial services provider that, along with its subsidiaries and other group companies,
+            offered a wide variety of products and services. As India’s economy became more market-oriented and
+            integrated with the world economy, Vedha capitalized on the new opportunities to provide a wider range
+            of financial products and services to a broader spectrum of clients. Vedha Bank was incorporated in 1994
+            as a part of the Vedha group. In 1999, Vedha became the first Indian company and the first bank or
+            financial institution from non-Japan Asia to be listed on the New York Stock Exchange.
+            The issue of universal banking, which in the Indian context meant conversion of long-term lending
+            institutions such as Vedha into commercial banks, had been discussed at length in the late 1990s.
+            Conversion into a bank offered Vedha the ability to accept low-cost demand deposits and offer a wider
+            range of products and services, and greater opportunities for earning non-fund based income in the form
+            of banking fees and commissions. After consideration of various corporate structuring alternatives in
+            the context of the emerging competitive scenario in the Indian banking industry, and the move towards
+            universal banking, the managements of Vedha and Vedha Bank formed the view that the merger of Vedha with
+            Vedha Bank would be the optimal strategic alternative for both entities, and would create the optimal
+            legal structure for Vedha group's universal banking strategy.
+        </dd>
+    </main>
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <center>
+            <font color="green">copyright@vedhabank</font>
+        </center>
+    </footer>
+</body>
