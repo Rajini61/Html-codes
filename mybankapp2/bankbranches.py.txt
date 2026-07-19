@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+</head>
+
+<body>
+    <header id="headersection">
+        <h1>
+            <strong>
+                <center>
+                    <font color="orange">Vedha</font>
+                    <font color="blue">Bank</font>
+                </center>
+            </strong>
+        </h1>
+        <nav align="center">
+            <a href="aboutbank.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="#bankbranches">Branches</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="part3">
+            <table border="1px" cellpadding="10px" cellspacing="10px" bgcolor="skyblue">
+                <caption>
+                    <b>Available Bank Branches</b>
+                </caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Branch ID</th>
+                        <th colspan="2">Branch Infomation</th>
+                        <th colspan="2">Contact Details</th>
+                        <th rowspan="2">Manager</th>
+                        <th rowspan="2">Status</th>
+                    </tr>
+                    <tr>
+                        <th>Branch Name</th>
+                        <th>City</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>B001</td>
+                        <td>Hyderabad</td>
+                        <td>Hyderabad</td>
+                        <td>4256850816</td>
+                        <td>hydmain@gmail.com</td>
+                        <td>Maruthi</td>
+                        <td>Open</td>
+                    </tr>
+                    <tr>
+                        <td>B002</td>
+                        <td>Siddipet</td>
+                        <td>siddipet</td>
+                        <td>4289862428</td>
+                        <td>sdptcity@gmail.com</td>
+                        <td>Rakesh</td>
+                        <td>Open</td>
+                    </tr>
+                    <tr>
+                        <td>B003</td>
+                        <td>Vijayawada</td>
+                        <td>Vijayawadacity</td>
+                        <td>4289845428</td>
+                        <td>vijayawadad@gmail.com</td>
+                        <td>Ramesh</td>
+                        <td>Open</td>
+                    </tr>
+                    <tr>
+                        <td>B004</td>
+                        <td>Thirupathi</td>
+                        <td>Thirupathi</td>
+                        <td>4236862428</td>
+                        <td>thirupathi@gmail.com</td>
+                        <td>Srikanth</td>
+                        <td>Open</td>
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+        </section>
+    </main>
+    <br><br><br>
+    <hr>
+    <footer>
+        <h3>
+            <center>
+                <font color="green">copyright@vedha</font>
+            </center>
+        </h3>
+    </footer>
+</body>
+
+</html>
