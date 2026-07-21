@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Open New Bank Account</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="#Bank Account">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <caption>
+            <center>
+                <h3>Account Details</h3>
+            </center>
+        </caption>
+        <form>
+
+            <label>Name</label>
+            <input type="text">
+            <br>
+            <label>Father Name</label>
+            <input type="text">
+            <br>
+            <label>Email</label>
+            <input type="email">
+            <br>
+            <label>Phone</label>
+            <input type="tel">
+            <br>
+            <label>Date</label>
+            <input type="date">
+            <br>
+            <label>Gender</label>
+
+            <input type="radio" value="MALE">Male
+            <input type="radio" value="FEMALE">Female
+            <br>
+            <label>Deposit</label>
+            <input type="number">
+            <br>
+
+            <label>Account Type</label>
+
+            <select>
+                <option value="Savings">Savings</option>
+                <option value="Fixed Deposit">fixed Account</option>
+                <option value="Current Account">Current Account</option>
+                <option value="salary account">Salary account</option>
+
+            </select>
+            <br>
+            <label>Adhar</label>
+            <input type="file">
+
+            <br>
+            <label>Address</label>
+            <textarea rows="5" cols="10"></textarea>
+            <br>
+            <input type="button" value="Submit">
+            <input type="reset" value="clear">
+
+
+            </m>
+            </table>
+    </main>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

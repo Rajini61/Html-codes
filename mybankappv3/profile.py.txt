@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile Update Form</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>profile update Form</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="#profileupdate">profileupdate</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <caption>
+            <center>
+                <h3>Profile Details</h3>
+            </center>
+        </caption>
+        <form>
+            <label>Customer Name</label>
+            <input type="text">
+            <br>
+            <label>Email</label>
+            <input type="email">
+            <br>
+            <label>Mobile</label>
+            <input type="tel">
+            <br>
+            <label>Date of Birth</label>
+            <input type="date">
+            <br>
+            <label>Website</label>
+            <input type="url">
+            <br>
+            <label>Profile Photo</label>
+            <input type="file">
+            <br>
+            <label>City</label>
+            <select>
+                <option value="select type">Select</option>
+                <option value="HYDERABAD">Hyderabad</option>
+                <option value="SIDDIPET">Siddipet</option>
+                <option value="MUMBAI">Mumbai</option>
+                <option value="KOCHI">Kochi</option>
+            </select>
+            <br>
+            <label>Address</label>
+            <textarea rows="5" cols="20"></textarea>
+            <br>
+            <input type="button" value="Submit">
+
+            <br>
+            </table>
+        </form>
+    </main>
+    <br><br><br><br>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

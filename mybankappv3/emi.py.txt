@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>emi Calculator</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>EMI Calculator</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="#EMI Calculator">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <caption>
+            <center>
+                <h3>EMI Details</h3>
+            </center>
+        </caption>
+
+        <form>
+
+            <label>Loan Amount</label>
+            <input>
+            <br>
+            <label>Interest Rate(%)</label>
+            <input>
+            <br>
+            <label>Loan Tenure</label>
+            <input>
+            <br>
+            <label>Tenure Type</label>
+
+            <select>
+                <option value="Months">Months</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <br>
+            <label>EMI Start Date</label>
+            <input type="date">
+            <br>
+            <input type="button" value="Calculate">
+            <input type="Reset">
+
+        </form>
+
+    </main>
+    <br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

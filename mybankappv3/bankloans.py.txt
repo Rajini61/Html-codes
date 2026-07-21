@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loans</title>
+</head>
+
+<body>
+    <header id="headersection">
+        <h1>
+            <strong>
+                <center>
+                    <font color="orange">Vedha</font>
+                    <font color="blue">Bank</font>
+                </center>
+            </strong>
+        </h1>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="#bankloans">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a> &nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="part2">
+            <caption>
+                <center>
+                    <h2>Available Bank Loans Schemes</h2>
+                </center>
+            </caption>
+            <br><br>
+            <table border="1px" cellpadding="10px" cellspacing="10px" align="center">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Loan ID</th>
+                        <th colspan="2">Loan Information</th>
+                        <th colspan="2">Eligibility</th>
+                        <th rowspan="2">Interest Role</th>
+                        <th rowspan="2">Apply</th>
+                    </tr>
+                    <th>Loan Name</th>
+                    <th>Category</th>
+                    <th>Minimum Salary</th>
+                    <th>Age Limit</th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>L001</td>
+                        <td>Home Loan</td>
+                        <td>Secured</td>
+                        <td>30000</td>
+                        <td>21-60 years</td>
+                        <td>8.50%</td>
+                        <td>
+                            <a href="https://www.icici.bank.in/personal-banking/loans/home-loan?ITM=nli_loans_loans_entryPoints_2_CMS_homeLoan_NLI"
+                                target="_blank">Apply</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>L002</td>
+                        <td>Car Loan</td>
+                        <td>Secured</td>
+                        <td>25000</td>
+                        <td>21-65 years</td>
+                        <td>9.20%</td>
+                        <td>
+                            <a href="https://www.icici.bank.in/personal-banking/loans/car-loan?ITM=nli_loans_loans_entryPoints_3_CMS_carLoan_NLI"
+                                target="_blank">Apply</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="1">L003</td>
+                        <td rowspan="1">Personal Loan</td>
+                        <td colspan="1">
+                            Festival Offer<hr>
+                            Regular
+                        </td>
+                        <td rowspan="1">20000</td>
+                        <td rowspan="1">21-58years</td>
+                        <td colspan="1">
+                            10.99%<hr>
+                            11.50%
+                        </td>
+                        <td>
+                            <a href="https://www.icici.bank.in/personal-banking/loans/personal-loan?ITM=nli_loans_loans_entryPoints_1_CMS_personalLoan_NLI"
+                                target="_blank" rowspan="1">Apply</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>L004</td>
+                        <td>Education Loan</td>
+                        <td>Unsecured</td>
+                        <td>15000</td>
+                        <td>18-35 years</td>
+                        <td>7.90%</td>
+                        <td>
+                            <a href="https://www.icici.bank.in/personal-banking/loans/education-loan?ITM=nli_loans_loans_cardjourney_1CTA_CMS_exploreMore_NLI"
+                                target="_blank">Apply</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <hr>
+        <footer>
+            <h3>
+                <center>
+                    <font color="green">copyright@vedha</font>
+                </center>
+            </h3>
+        </footer>
+</body>
+
+</html>

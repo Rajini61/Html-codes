@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Customer Register Form</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="#Customer Registration">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form>
+            <caption>
+                <center>
+                    <h2>Customer Details</h2>
+                </center>
+            </caption>
+
+            <label>Customer Name</label>
+            <td><input type="tel">
+                <br>
+                <label>Password</label>
+                <input type="password">
+                <br>
+                <label>Confirm Password</label>
+                <input type="password">
+                <br>
+                <label>Email</label>
+                <input type="email">
+                <br>
+                <label>Mobile</label>
+                <input type="tel">
+                <br>
+                <label>Date of Birth</label>
+                <input type="date">
+                <br>
+                <label>Gender</label>
+                <input type="radio" value="MALE">Male
+                <input type="radio" value="FEMALE">Female
+                <br>
+                <label>Account Type</label>
+                <select>
+                    <option value="select type">Select</option>
+                    <option value="SAVINGS">Savings</option>
+                    <option value="FIXED DEPOSIT">Fixed Deposit</option>
+                    <option value="CURRENT ACCOUNT">Current Account</option>
+                </select>
+                <br>
+                <label>Adhar Number</label>
+                <input type="number">
+                <br>
+                <label>PAN Upload</label>
+                <input type="file">
+                <br>
+                <label>Address</label>
+                <textarea rows="5" cols="20"></textarea>
+                <br>
+                <label>Terms</label>
+                <input type="checkbox">I Agree
+                <br>
+                <input type="button" value="Submit">
+                <input type="reset" value="Reset">
+
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>
