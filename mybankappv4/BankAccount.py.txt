@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Open New Bank Account</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="#Bank Account">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <caption>
+            <center>
+                <h3>Account Details</h3>
+            </center>
+        </caption>
+        <table border="1px" cellpadding="10px" cellspacing="10px" align="center">
+            <form action="Bank_Account" method="post" name="Account">
+                <tr>
+                    <td><label for="id1">Name</label></td>
+                    <td><input type="text" id="id1" name="name1"></td>
+                </tr>
+                <tr>
+                    <td><label for="id2">Father Name</label></td>
+                    <td><input type="text" id="id2" name="name2"></td>
+                </tr>
+                <tr>
+                    <td><label for="id3">Email</label></td>
+                    <td><input type="email" id="id3" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="id4">Phone</label></td>
+                    <td><input type="tel" id="id4" name="Phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="id5">Date</label></td>
+                    <td><input type="date" id="id5" name="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" value="MALE" id="id6" name="gender"><label for="id6">Male</label>
+                        <input type="radio" value="FEMALE" id="id7" name="gender"><label for="id7">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id8">Deposit</label></td>
+                    <td><input type="number" id="id8" name="Deposit"></td>
+                </tr>
+                <tr>
+                    <td><label for="id9">Account Type</label></td>
+                    <td>
+                        <select id="id9" name="account_type">
+                            <option value="Savings">Savings</option>
+                            <option value="Fixed Deposit">fixed Account</option>
+                            <option value="Current Account">Current Account</option>
+                            <option value="salary account">Salary account</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id10">Adhar</label></td>
+                    <td><input type="file" id="id10" name="adhar_number"></td>
+                </tr>
+                <tr>
+                    <td><label for="id11">Address</label></td>
+                    <td><textarea rows="5" cols="10" id="id11" name="address"></textarea></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>
+                        <input type="button" value="Submit">
+                        <input type="reset" value="clear">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </main>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

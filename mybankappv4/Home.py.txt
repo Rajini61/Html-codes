@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+    <header id="headersection">
+        <h1>
+            <strong>
+                <center>
+                    <font color="orange">Vedha</font>
+                    <font color="blue">Bank</font>
+                </center>
+            </strong>
+        </h1>
+        <nav align="center">
+            <a href="#Home">Home</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <strong>
+            <h3 id="part1"></h3>
+            <h3>About Bank</h3>
+        </strong>
+        <dd>
+            vedhabank was formed in 1955 at the initiative of the World Bank, the Government of India and
+            representatives of Indian industry. The principal objective was to create a development financial
+            institution for providing medium-term and long-term project financing to Indian businesses. Until the
+            late 1980s, vedhabank primarily focused its activities on project finance, providing long-term funds to a
+            variety of industrial projects. With the liberalization of the financial sector in India in the 1990s,
+            Vedha transformed its business from a development financial institution offering only project finance to
+            a diversified financial services provider that, along with its subsidiaries and other group companies,
+            offered a wide variety of products and services. As India’s economy became more market-oriented and
+            integrated with the world economy, Vedha capitalized on the new opportunities to provide a wider range
+            of financial products and services to a broader spectrum of clients. Vedha Bank was incorporated in 1994
+            as a part of the Vedha group. In 1999, Vedha became the first Indian company and the first bank or
+            financial institution from non-Japan Asia to be listed on the New York Stock Exchange.
+            
+        </dd>
+    </main>
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <center>
+            <font color="green">copyright@vedhabank</font>
+        </center>
+    </footer>
+</body>

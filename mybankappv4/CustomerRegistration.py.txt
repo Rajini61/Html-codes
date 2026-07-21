@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Customer Register Form</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="#Customer Registration">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form action="Registration_form" method="post" name="Registration">
+            <caption>
+                <center>
+                    <h2>Customer Details</h2>
+                </center>
+            </caption>
+            <table align="center" border="1px" cellspadding="10px" cellspacing="10px">
+                <tr>
+                    <td><label for="id1">Customer Name</label></td>
+                    <td><input type="text" id="id1" name="name1"></td>
+                </tr>
+                <tr>
+                    <td><label for="id2">Password</label></td>
+                    <td><input type="password" id="id2" name="password2"></td>
+                </tr>
+                <tr>
+                    <td><label for="id3">Confirm Password</label></td>
+                    <td><input type="password" id="id3" name="password3"></td>
+                </tr>
+                <tr>
+                    <td><label for="id4">Email</label></td>
+                    <td><input type="email" id="id4" name="email4"></td>
+                </tr>
+                <tr>
+                    <td><label for="id5">Mobile</label></td>
+                    <td><input type="tel" id="id5" name="Mobile5"></td>
+                </tr>
+                <tr>
+                    <td><label for="id6">Date of Birth</label></td>
+                    <td><input type="date" id="id6" name="DOB6"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" value="MALE" id="gender1" name="gender"><label  for="gender1">Male</label>
+                        <input type="radio" value="FEMALE" id="gender2" name="gender"><label for="gender2">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="type7">Account Type</label></td>
+                    <td><select  id="type7" name="type">
+                            <option value="select type">Select</option>
+                            <option value="SAVINGS">Savings</option>
+                            <option value="FIXED DEPOSIT">Fixed Deposit</option>
+                            <option value="CURRENT ACCOUNT">Current Account</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="id8">Adhar Number</label></td>
+                    <td><input type="number" id="id8" name="adhar8"></td>
+                </tr>
+                <tr>
+                    <td> <label for="pan9">PAN Upload</label></td>
+                    <td><input type="file" id="pan9" name="pan"></td>
+                </tr>
+                <tr>
+                    <td><label for="add10">Address</label></td>
+                    <td><textarea rows="5" cols="20" id="add10" name="add"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Terms11">Terms</label></td>
+                    <td><input type="checkbox" id="Terms11" name="Terms">I Agree</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>
+                        <input type="button" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

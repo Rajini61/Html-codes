@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <caption>
+            <center>
+                <h1>Internet Banking Login</h1>
+            </center>
+        </caption>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="#Internet Banking">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <caption>
+            <center>
+                <h3>Login Details</h3>
+            </center>
+        </caption>
+    <table border="1px" cellpadding="10px" cellspacing="10px" align="center">
+        <form action="Internet_Banking" method="post" name="Login">
+            <tr>
+                <td><label for="id1">Customer ID</label></td>
+                <td><input type="text" id="id1" name="Customer1"></td>
+            </tr>
+            <tr>
+                <td><label for="id2">Password</label></td>
+                <td><input type="password" id="id2" name="password2"></td>
+            </tr>
+            <tr>
+                <td><label for="id3">Remember me</label></td>
+                <td><input type="checkbox" id="id3" name="name3"></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td>
+                    <input type="button" value="Login">
+                    <input type="reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+    </main>
+    <br><br><br><br><br><br><br><br>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

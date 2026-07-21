@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Application Form</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Credit Card Application</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="branchfeedback.html">branchfeedback</a> &nbsp; &nbsp;
+            <a href="#creditcard">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form action="Credit_Card" name="creditcard">
+            <caption>
+                <center>
+                    <h3>Credit Card Details</h3>
+                </center>
+            </caption>
+            <table align="center" border="1px" cellspadding="10px" cellspacing="10px">
+                <tr>
+                    <td><label for="id1">Name</label></td>
+                    <td><input type="text" id="id1" name="name1"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="id2">Email</label></td>
+                    <td><input type="email" id="id2" name="email2"></td>
+                </tr>
+                <tr>
+                    <td><label for="id3">Mobile</label></td>
+                    <td><input type="tel" id="id3" name="Mobile3"></td>
+                </tr>
+                <tr>
+                    <td><label for="id4">Salary</label></td>
+                    <td><input type="number" id="id4" name="salary4"></td>
+                </tr>
+
+                <tr>
+                    <td><label>Employment</label></td>
+                    <td>
+                        <input type="radio" value="PRIVATE" id="Employment1" name="Employment"><label for="Employment1">Private</label>
+                        <input type="radio" value="GOVERNMENT" id="Employment2" name="Employment"><label for="Employment2">Government</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="id5">Company Website</label></td>
+                    <td><input type="url" id="id5" name="Website5"></td>
+                </tr>
+                <tr>
+                    <td> <label for="id6">Resume</label></td>
+                    <td><input type="file" id="id6" name="Resume6"></td>
+                </tr>
+                <tr>
+                    <td><label for="id7">Address</label></td>
+                    <td><textarea rows="5" cols="20" id="id7" name="Address7"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Cardtype">Card Type</label></td>
+                    <td><select  id="Cardtype" name="Cardtype">
+                            <option value="select type">Select</option>
+                            <option value="SILVER">Silver</option>
+                            <option value="GOLD">Gold</option>
+                            <option value="PLATINUM">Platinum</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>
+                        <input type="button" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>

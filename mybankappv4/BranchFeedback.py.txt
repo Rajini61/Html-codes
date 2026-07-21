@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>Branch Feedback Form</h1>
+        </center>
+        <nav align="center">
+            <a href="Home.html">About Bank</a> &nbsp; &nbsp;
+            <a href="bankloans.html">Bank Loans</a> &nbsp; &nbsp;
+            <a href="bankbranches.html">Branches</a>&nbsp; &nbsp;
+            <a href="Customer Registration.html">Customer Registration</a> &nbsp; &nbsp;
+            <a href="Bank Account.html">bank Account</a> &nbsp; &nbsp;
+            <a href="#branchfeedback">branchfeedback</a> &nbsp; &nbsp;
+            <a href="creditcard.html">creditcard</a> &nbsp; &nbsp;
+            <a href="EMI Calculator.html">EMI Calculator</a> &nbsp; &nbsp;
+            <a href="Internet Banking Login.html">Internet Banking</a> &nbsp; &nbsp;
+            <a href="Loan Eligibility check.html">Loan Eligibility</a> &nbsp; &nbsp;
+            <a href="profileupdate.html">profileupdate</a> 
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <form action="Bank_Feedback" method="get" name="Feedback">
+            <caption>
+                <center>
+                    <h3>Feedback Details</h3>
+                </center>
+            </caption>
+            <table align="center" border="1px" cellspadding="10px" cellspacing="10px">
+                <tr>
+                    <td><label for="id1">Name</label></td>
+                    <td><input type="text" id="id1" name="name1"></td>
+                </tr>
+                <tr>
+                    <td><label for="id2">Email</label></td>
+                    <td><input type="email" id="id2" name="name2"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="id3">Visited Date</label></td>
+                    <td><input type="date" id="id3" name="name3"></td>
+                </tr>
+                <tr>
+                    <td><label for="Branch">Branch</label></td>
+                    <td>
+                        <input type="radio" value="Hyderabad" id="Branch1" name="Branch">Hyderabad
+                        <input type="radio" value="Mumbai" id="Branch2" name="Branch">Mumbai
+                        <input type="radio" value="Kochi" id="Branch3" name="Branch">Kochi
+                        <input type="radio" value="Vijayawada" id="Branch4" name="Branch">Vijayawada
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Rating1">Rating</label></td>
+                    <td><select  id="Rating" name="Rating">
+                            <option value="select type">Select</option>
+                            <option value="Excellent">Excellent</option>
+                            <option value="Good">Good</option>
+                            <option value="Average">Average</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="id5">Suggestions</label></td>
+                    <td><textarea rows="5" cols="20" id="id5" name="name5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="id4">Services Used</label></td>
+                    <td>
+                        <input type="checkbox" id="id4" name="services">ATM
+                        <input type="checkbox" id="id5" name="services">Loan
+                        <input type="checkbox" id="id6" name="services">Account
+                    </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td>
+                        <input type="button" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <br><br><br><br>
+    <hr>
+    <footer>
+        <center>copy@vedhabank</center>
+    </footer>
+</body>
+
+</html>
